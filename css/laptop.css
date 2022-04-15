@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+  .menu-position {
+    text-align: end;
+  }
+  .text{
+    margin-top: -253px;
+  }
+  .ms-auto2 {
+    text-align: left;
+    margin-top: 9px;
+  }
+  .copyright p {
+    letter-spacing: 4px;
+  }
+  .burger img {
+    margin-top: 120px!important;
+    padding-bottom: 50px;
+  }
+  #banner .banner-content div h1 {
+    font-size: 80px;
+  }
+  #banner .banner-content div span {
+    font-size: 20px;
+  }
+  #banner .banner-content h2 {
+    font-size: 40px;
+  }
+   #reservation{
+    padding: 100px 0px;
+  }
+  #reservation h1 {
+    font-size: 40px;
+  }
+  .logo img {
+    width: 300px;
+  }
+  footer .icon {
+    font-size: 15px;
+  }
+  footer .icon img {
+    font-size: 16px;
+    width: 20px;
+    margin-left: -20px;
+  }
+}

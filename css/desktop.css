@@ -1,0 +1,61 @@
+@media (min-width: 992px) {
+  #banner .burger img {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .testy-content h2 {
+    font-size: 50px!important;
+  }
+  .main-content h1 {
+    font-size: 33px;
+  }
+   #reservation{
+    padding: 100px 0px;
+  }
+  .p-4 {
+    padding: 0px!important;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    margin: -7px 7px;
+  }
+  .owl-dots {
+    left: 5px;
+    bottom: 7px;
+  }
+  .icon span {
+    font-size: 20px;
+  }
+  .icon img {
+    width: 25px;
+  }
+  .copyright p {
+    text-align: left;
+  }
+  .logo-size img {
+    width: 400px!important;
+  }
+}
+
+@media (min-width: 1200px) {
+ #reservation{
+    padding: 100px 0px;
+  }
+  .text{
+    margin-top: -130px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .owl-dots {
+    bottom: 49px;
+  }
+  #reservation{
+    padding: 100px 0px;
+  }
+  .copyright p{
+    text-align: left!important;
+  }
+}

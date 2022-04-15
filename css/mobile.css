@@ -1,0 +1,51 @@
+@media (min-width: 576px) {
+  .text{
+    margin-top: -130px;
+  }
+  .margin {
+    margin-top: 165px;
+  }
+  #banner .burger img {
+    margin-top: -215px;
+    margin-bottom: -80px;
+  }
+  #testy-burger .testy-content h2 {
+    font-size: 45px!important;
+  }
+  #event .main-content h1{
+    font-size: 35px;
+  }
+  #reservation .img-fluid{
+    display: none;
+  }
+  
+  #reservation h1 {
+    font-size: 27px!important;
+  }
+  .t-button {
+    padding-bottom: 100px;
+  }
+  footer .logo img {
+    width: 300px;
+  }
+  .footer-text p {
+    padding-bottom: 40px;
+  }
+  .ms-auto2 {
+    text-align: end;
+  }
+  .i-left {
+    text-align: center;
+  }
+  .copyright p {
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .text-end2 {
+    text-align: justify;
+    margin-top: 40px;
+  }
+  .copyright {
+    margin-top: 40px;
+  }
+}

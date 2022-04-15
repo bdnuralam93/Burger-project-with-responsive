@@ -1,0 +1,132 @@
+@media (min-width: 320px) {
+  
+  .h-content {
+    font-size: 15px!important;
+  }
+  .navbar-brand img{
+    width: 150px;
+  }
+  .bike img {
+    width: 30px;
+  }
+  .m-style {
+    text-align: end;
+  }
+  .banner-content {
+    padding-top: 280px!important;
+  }
+  #banner .banner-content span {
+    font-size: 16px!important;
+  }
+  #banner .banner-content h1 {
+    font-size: 60px!important;
+    text-shadow: 2px 2px 0px rgb(255 255 255 / 60%);
+  }
+  #banner .banner-content h2 {
+    font-size: 40px!important;
+    text-shadow: 2px 2px 0px rgb(255 255 255 / 60%);
+  }
+  #banner .padding {
+    padding-top: 0px!important;
+  }
+  #product {
+    padding-top: 25px;
+  }
+  #testy-burger .testy-content h2 {
+    font-size: 25px;
+    margin: 16px 0px;
+  }
+  #testy-burger .testy-content p {
+    text-align: justify;
+  }
+  #event {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .main-content h3 {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .main-content p {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  #event .main-content h1 {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
+  #reservation .display img{
+    display: none;
+  }
+  #reservation h1{
+    font-size: 35px!important;
+  }
+  
+  footer {
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  }
+  .logo-size img {
+    width: 250px;
+  }
+  .footer-text p {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .icon-sty {
+    text-align: center;
+  }
+  .icon-sty img {
+    width: 16px;
+  }
+  .icon span {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .icon{
+    font-weight: normal!important;
+    letter-spacing: normal!important;
+  }
+  .copyright p {
+    font-size: 13px;
+    letter-spacing:normal!important!;
+    text-align: center;
+    margin-top: 24px;
+  }
+  
+  .social-icon i {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 375px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+  #testy-burger .testy-content h2 {
+    font-size: 35px;
+  }
+  .main-content h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .main-content h3 {
+    font-size: 22px;
+  }
+  #reservation h1 {
+    font-size: 32px;
+  }
+}
+
+
+@media (min-width: 425px){
+
+
+}

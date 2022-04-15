@@ -1,0 +1,452 @@
+/*
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+/**********************
+ global css
+ ***********************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
+/**********************
+ 	header section css
+ ***********************/
+
+header {
+  width: 100%;
+  position: absolute;
+}
+
+.h-content {
+  color: #3d2514!important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-link {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: #3d2514!important;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 57px!important;
+  padding-right: 0px!important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #de1c1c!important;
+}
+
+
+/**********************
+ 	banner section css
+ ***********************/
+
+#banner {
+  width: 100%;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#banner .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#banner .padding {
+  padding-top: 150px;
+}
+
+#banner .banner-content span {
+  font-family: 'Bebas Neue', cursive;
+  color: #3d2514!important;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 2px dashed #3d2514;
+  padding: 6px 8px;
+}
+
+#banner .banner-content h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514!important;
+  font-size: 114px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  text-shadow: 4px 4px 0px rgba(255, 255, 255, 60%);
+}
+
+#banner .banner-content h2 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514!important;
+  font-size: 56px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgba(255, 255, 255, 60%);
+  letter-spacing: 1px;
+}
+
+
+/**********************
+ 	product section css
+ ***********************/
+
+#product {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+#product .item, .item1, .item2 {
+  position: relative;
+}
+
+.item span,
+.item1 span,
+.item2 span {
+  position: absolute;
+  left: 26px;
+  top: 20px;
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+
+.item .img-title {
+  position: absolute;
+  left: 26px;
+  top: 32px;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+
+.item1 .img-title1,
+.item2 .img-title2 {
+  position: absolute;
+  left: 26px;
+  top: 35px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+
+
+/**********************
+ 	testy burger section css
+ ***********************/
+
+#testy-burger {
+  width: 100%;
+}
+
+#testy-burger .testy-content h4 {
+  background-color: #ffc045;
+  display: inline-block;
+  color: #3d2514;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 6px 8px;
+  letter-spacing: 2px;
+}
+
+#testy-burger .testy-content h2 {
+  display: block;
+  color: #3d2514;
+  font-size: 50px!important;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 24px 0px;
+  letter-spacing: 2px;
+}
+
+#testy-burger .testy-content p {
+  display: block;
+  color: #3d2514;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 24px;
+}
+
+#testy-burger .burger-content h3 {
+  display: block;
+  color: #3d2514;
+  font-size: 32px;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 16px;
+}
+
+.burger-content p {
+  display: block;
+  color: #3d2514;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 24px;
+}
+
+#testy-burger .order-btn a {
+  text-decoration: none;
+  color: #fff!important;
+}
+
+#testy-burger .order-btn {
+  background-color: #de1c1c;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Alfa Slab One', cursive;
+  padding: 18px 24px;
+  border: none;
+  display: inline-block;
+  letter-spacing: 2px;
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+#testy-burger .order-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+#testy-burger .order-btn:hover::before {
+  width: 100%;
+  transition: 0.5s;
+  background-color: #ffc045;
+}
+
+
+/*******************************************
+ 	event  section css
+ *******************************************/
+
+#event {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#event .main-content {
+  padding: 22px;
+}
+
+#event .slider-box {
+  box-shadow: 10px 6px 18px rgba(0, 0, 0, 10%);
+}
+
+.main-content h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: #3d2514;
+}
+
+.main-content h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 41px;
+  letter-spacing: 2px;
+  color: #3d2514;
+  margin-bottom: 24px;
+}
+
+.main-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #3d3d3d;
+  text-align: justify;
+}
+
+
+/************************
+ owl css
+ ************************/
+
+.owl-dots {
+  position: absolute;
+  left: 32px;
+  bottom: 18px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #ffc045;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+}
+
+
+/**********************
+ 	reservation section css
+ ***********************/
+
+#reservation {
+  width: 100%;
+  padding: 100px 0px;
+  background-image: url(../img/s-burger.png), url(../img/s-plate.png);
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+}
+
+#reservation h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 29px;
+  font-weight: bold;
+  color: #3d2514;
+  letter-spacing: 1px;
+}
+
+#reservation h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  color: #3d2514;
+  letter-spacing: 3px;
+  margin-bottom: 32px;
+}
+
+#reservation .form-control {
+  margin-bottom: 12px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  box-shadow: none;
+  height: 50px;
+}
+
+#reservation .form-control:focus {
+  border: 1px solid #de1c1c;
+}
+
+.table-btn {
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #de1c1c;
+  color: white;
+  border: none;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+#reservation .table-btn:hover {
+  border: 1px solid #de1c1c;
+  color: black;
+  background-color: transparent;
+}
+
+
+/**********************
+ 	footer section css
+ ***********************/
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../img/f-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.copyright p {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.footer-text p {
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  text-align: justify;
+  padding-bottom: 100px;
+}
+
+.icon {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.icon span {
+  width: 25px;
+  margin-left: 20px;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 25px;
+  text-align: center;
+}
+
+.copyright p a {
+  color: white!important;
+  text-decoration: none;
+}
+
+.social-icon a {
+  text-decoration: none;
+}
+
+.social-icon i {
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  margin-left: 8px;
+  transition: 0.5s;
+}
+
+.social-icon i:hover {
+  color: white;
+  background-color: #bf2222;
+  transition: 0.5s;
+}
